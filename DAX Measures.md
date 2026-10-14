@@ -1,6 +1,8 @@
 # DAX Measure Definitions
 
-Semantic model: `sm_retail` (Direct Lake). Tables: `gold_fact_sales`, `gold_fact_returns`, `gold_dim_customer`, `gold_dim_product`, `gold_dim_date`, `gold_cohort_retention`, `dq_cleaning_rules`.
+Semantic model: `sm_retail` (Direct Lake). 
+
+Tables: `gold_fact_sales`, `gold_fact_returns`, `gold_dim_customer`, `gold_dim_product`, `gold_dim_date`, `gold_cohort_retention`, `dq_cleaning_rules`.
 
 Relationships (many-to-one, single direction, fact to dimension): sales and returns each relate to customer (`customer_id`), product (`stock_code`), and date (`date_key`). `gold_cohort_retention` and `dq_cleaning_rules` have no relationships.
 
