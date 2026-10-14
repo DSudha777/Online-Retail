@@ -21,15 +21,12 @@ This is why Identified Customers can read 4,293 on the overview (December 2011 e
 
 **Revenue**
 Total value of valid sale lines.
-```dax
 Revenue = SUM(gold_fact_sales[line_amount])
-```
+
 
 **Orders**
 Number of distinct invoices.
-```dax
 Orders = DISTINCTCOUNT(gold_fact_sales[invoice_no])
-```
 
 **Avg Order Value**
 Revenue per invoice.
