@@ -113,15 +113,6 @@ Valid sale lines (Gold sales fact)	522,504
 - The November 2011 uptick in most cohorts reflects seasonal buying, so month-over-month retention after month 1 should not be read as steady loyalty.
 - The UK accounts for about 85% of revenue.
 
-## Repository structure
-
-```
-/notebooks     Bronze load, Silver cleaning, Gold build, cohort table
-/sql           Spark SQL used in the notebooks
-/dax           Measure definitions
-/images        Report screenshots
-README.md
-```
 
 ## How to reproduce
 
