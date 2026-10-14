@@ -95,10 +95,13 @@ Revenue, Orders, Avg Order Value, Identified Customers, Returns Value, Return Ra
 3. **Churn:** status breakdown, churn rate, churn by country (countries with 20+ customers), revenue from churned customers.
 4. **Data quality:** cleaning rules, row reconciliation, churn definition, limitations, lineage.
 
-![Executive overview](images/page1_overview.png)
-![Cohort retention](images/page2_cohort.png)
-![Churn](images/page3_churn.png)
-![Data quality](images/page4_data_quality.png)
+Step	Rows
+Raw rows (Bronze)	541,909
+Exact duplicates removed	−5,268
+Cancellations (moved to returns table)	−9,251
+Other excluded (non-product, zero price, negative quantity)	−4,886
+Valid sale lines (Gold sales fact)	522,504
+
 
 ## Limitations
 
