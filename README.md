@@ -18,6 +18,7 @@ End-to-end analytics solution built on Microsoft Fabric: raw transactions land i
 ## Data
 
 - **Source:** UCI Machine Learning Repository, *Online Retail* dataset (transactions from a UK online retailer). License: [confirm on the UCI dataset page].
+https://archive.ics.uci.edu/dataset/352/online+retail
 - **Size:** 541,909 raw rows, 1 Dec 2010 to 9 Dec 2011.
 - **Columns:** InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country.
 - **Currency:** [confirm on the UCI page; the report uses £].
