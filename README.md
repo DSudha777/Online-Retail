@@ -123,16 +123,6 @@ Valid sale lines (Gold sales fact)	522,504
 4. Create the semantic model from the Gold tables, set relationships and add the measures.
 5. Open the report and refresh.
 
-## Status
-
-- [x] Bronze / Silver / Gold layers
-- [x] Direct Lake semantic model and DAX measures
-- [x] Four-page report
-- [ ] Row-level security
-- [ ] Dev / Test / Prod deployment pipeline
-
-*(Update this list once the last two items are done.)*
-
 ## Tools
 
 Microsoft Fabric (Lakehouse, Notebooks, Direct Lake), Spark SQL, PySpark, Power BI, DAX.
